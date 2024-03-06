@@ -51,27 +51,28 @@
     <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=flat&logo=visualstudiocode&logoColor=white" />
 </div>
 
-# 설치 및 사용방법
-1. 자신의 다운로드 OR git clone을 이용하여 VScode에 받습니다.
-2. 터미널에서 cd server
-3. uvicorn main:app --reload 를 입력하여 서버를 기동합니다.
-4. 터미널에서 http://127.0.0.1:8000를 ctrl + 마우스 왼쪽 클릭으로 실행합니다. 혹은 VScode에서 live server가 실행되어 있으면
-윈도우 : client/html/index.html을 클릭 후 ALT + L + O
-맥북 : client/html/index.html을 클릭 후 command + L + O
-
 ## 필요한 모듈 설치
-1. pip install fastapi
-2. pip install paddlepaddle, paddleocr
-3. pip install opencv-python
-4. pip install torch
-5. pip install uvicorn
-6. pip install utils
-7. pip install jinja2
+1. pip install -r requirements.txt
+* requirments.txt에 들어가있는 버전 및 모듈을 자동으로 설치를 진행합니다.
 
 * 만약 맥북에서 paddlepaddle, paddleocr 설치 중 오류가 발생시 아래와 같이 진행하면 됩니다.
   1. brew update
   2. brew install mupdf swig
   3. pip install https://github.com/pymupdf/PyMuPDF/archive/master.tar.gz
   4. 다시 처음부터 paddlepaddle, paddleocr을 설치하면 됩니다.
+  5. 다시 설치 코드 : pip install paddlepaddle, paddleocr
 
-* !
+# 사용방법
+1. 자신의 다운로드 OR git clone을 이용하여 VScode에 받습니다.
+2. 터미널에서 pip install -r requirements.txt
+3. cd /server
+4. uvicorn main:app --reload 를 입력하여 서버를 기동합니다.
+5. 터미널에서 http://127.0.0.1:8000를 ctrl + 마우스 왼쪽 클릭으로 실행합니다. 혹은 VScode에서 live server가 실행되어 있으면 아래와 같이 사용하면 됩니다.
+* 윈도우 : client/html/index.html을 클릭 후 ALT + L + O
+* 맥북 : client/html/index.html을 클릭 후 command + L + O
+
+* 주의사항 : 맥 관련하여 서버 실행중 "Winpath error"가 발생할시
+* temp = pathlib.PosixPath pathlib.PosixPath = pathlib.WindowsPath
+* 위 코드를 지우면 됩니다.
+
+6. 
