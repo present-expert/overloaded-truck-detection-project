@@ -5,7 +5,7 @@
 * Ultralytics의 YOLOv5s모델을 사용하여 과적차량의 분석 및 탐지에 도움을 주는 서비스
 * 기존 CCTV의 역활을 추가하여 제한속도 위반 뿐만 아니라 과적차량까지 실시간 동시탐지 및 안전한 도로를 위해 기획
 
-## ☑ 역활 및 과정
+## ☑ 과정
 * 최종 프로젝트에 사용할 모델을 테스트하기 위해 YOLOv8n 과 YOLOv5, YOLOv5s, YOLOv5s6, YOLOv5l6등 많은 모델 테스트 결과 YOLOv5s를 이용하여 사용하기를 결정
 * 이미지 및 라벨링 데이터 정제화
 * YOLO 라벨링 변환 및 데이터 전처리
@@ -49,7 +49,8 @@
     <img src="https://img.shields.io/badge/pycharm-000000?style=flat&logo=pycharm&logoColor=white" /> &nbsp&nbsp
     <img src="https://img.shields.io/badge/jupyter-F37626?style=flat&logo=jupyter&logoColor=white" /> &nbsp&nbsp
     <img src="https://img.shields.io/badge/googlecolab-F9AB00?style=flat&logo=googlecolab&logoColor=white" /> &nbsp&nbsp
-    <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=flat&logo=visualstudiocode&logoColor=white" />
+    <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=flat&logo=visualstudiocode&logoColor=white" /> &nbsp&nbsp
+    <img src="https://img.shields.io/badge/canva-00C4CC?style=flat&logo=canva&logoColor=white" />
 </div>
 
 ## 필요한 모듈 설치
