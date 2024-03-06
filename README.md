@@ -70,7 +70,8 @@
 2. 터미널에서 pip install -r requirements.txt
 3. cd /server
 4. uvicorn main:app --reload 를 입력하여 서버를 기동합니다.
-5. 터미널에서 http://127.0.0.1:8000를 ctrl + 마우스 왼쪽 클릭으로 실행합니다. 혹은 VScode에서 live server가 설치되어 있으면 아래와 같이 실행하면 됩니다.
+5. 터미널에서 http://127.0.0.1:8000를 ctrl + 마우스 왼쪽 클릭으로 실행합니다.<br />
+혹은 VScode에서 live server가 설치되어 있으면 아래와 같이 실행하면 됩니다.
 * 윈도우 : client/html/index.html을 클릭 후 ALT + L + O
 * 맥북 : client/html/index.html을 클릭 후 command + L + O
 
