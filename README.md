@@ -8,10 +8,11 @@
 ## ☑ 과정
 * 최종 프로젝트에 사용할 모델을 테스트하기 위해 YOLOv8n 과 YOLOv5, YOLOv5s, YOLOv5s6, YOLOv5l6등 많은 모델 테스트 결과 YOLOv5s를 이용하여 사용하기를 결정
 * 이미지 및 라벨링 데이터 정제화
-* YOLO 라벨링 변환 및 데이터 전처리
+* [YOLOv5s](https://github.com/ultralytics/yolov5) 라벨링 변환 및 데이터 전처리
 
 ## ☑ 사용한 데이터
 * [AIHUB 과적차량 도로 위험 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=530)
+* [AIHUB 자동차 차종/연식/번호판 인식용 영상](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=172)
 * 데이터 라벨링 변환 : Google Colab을 이용하여 필요한 라벨링만 추출 후 정제
 
 # ☑ Skills
