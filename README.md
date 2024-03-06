@@ -85,4 +85,9 @@ pathlib.PosixPath = pathlib.WindowsPath
 ``` 
 를 제거합니다.
 
-6. 
+6. 과적차량 탐지 이미지
+![image](/overloaded.png)
+
+<br/>
+
+7. PaddleOCR로 번호판 글자 인식
