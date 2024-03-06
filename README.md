@@ -37,7 +37,7 @@
 ### Back-End
 <div align="center">
     <img src="https://img.shields.io/badge/fastapi-009688?style=flat&logo=fastapi&logoColor=white" /> &nbsp&nbsp
-    <img src="https://img.shields.io/badge/jinja-B41717?style=flat&logo=jinja2&logoColor=white" />
+    <img src="https://img.shields.io/badge/jinja2-B41717?style=flat&logo=jinja2&logoColor=white" />
 </div>
 
 ### Tools
@@ -74,10 +74,10 @@
 
 * 주의사항 : 맥 관련하여 서버 실행중 "Winpath error"가 발생할시
 * model.py에서 
-
-    temp = pathlib.PosixPath 
+```
+    temp = pathlib.PosixPath
     pathlib.PosixPath = pathlib.WindowsPath 
-    
+``` 
 를 제거합니다.
 
 6. 
