@@ -72,8 +72,7 @@
 * 윈도우 : client/html/index.html을 클릭 후 ALT + L + O
 * 맥북 : client/html/index.html을 클릭 후 command + L + O
 
-* 주의사항 : 맥 관련하여 서버 실행중 "Winpath error"가 발생할시
-* model.py에서 
+* 주의사항 : 맥 관련하여 서버 실행중 "NotImplementedError: cannot instantiate 'WindowsPath' on your system"에러 발생할시 /server/model.py에서 
 ```
     temp = pathlib.PosixPath
     pathlib.PosixPath = pathlib.WindowsPath 
