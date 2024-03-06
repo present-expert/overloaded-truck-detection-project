@@ -37,7 +37,7 @@
 ### Back-End
 <div align="center">
     <img src="https://img.shields.io/badge/fastapi-009688?style=flat&logo=fastapi&logoColor=white" /> &nbsp&nbsp
-    <img src="https://img.shields.io/badge/jinja2-B41717?style=flat&logo=jinja2&logoColor=white" />
+    <img src="https://img.shields.io/badge/jinja2-B41717?style=flat&logo=Jinja&logoColor=white" />
 </div>
 
 ### Tools
