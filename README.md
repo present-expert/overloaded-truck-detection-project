@@ -23,14 +23,15 @@
 ### AI
 <div align="center">
     <img src="https://img.shields.io/badge/Opencv-5C3EE8?style=flat&logo=opencv&logoColor=white" /> &nbsp&nbsp
-    <img src="https://img.shields.io/badge/pytorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
+    <img src="https://img.shields.io/badge/pytorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" /> &nbsp&nbsp
+    <img src="https://img.shields.io/badge/YOLO-1572B6?style=flat&logo=YOLO&logoColor=white" />
 </div>
 
 ### Front-End
 <div align="center">
-    <img src="https://img.shields.io/badge/html5-E34F26?style=flat&logo=html&logoColor=white" /> &nbsp&nbsp
+    <img src="https://img.shields.io/badge/html-E34F26?style=flat&logo=html5&logoColor=white" /> &nbsp&nbsp
     <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=white" /> &nbsp&nbsp
-    <img src="https://img.shields.io/badge/css3-1572B6?style=flat&logo=css&logoColor=white" />
+    <img src="https://img.shields.io/badge/css-1572B6?style=flat&logo=css3&logoColor=white" />
 </div>
 
 ### Back-End
@@ -72,7 +73,11 @@
 * 맥북 : client/html/index.html을 클릭 후 command + L + O
 
 * 주의사항 : 맥 관련하여 서버 실행중 "Winpath error"가 발생할시
-* temp = pathlib.PosixPath pathlib.PosixPath = pathlib.WindowsPath
-* 위 코드를 지우면 됩니다.
+* model.py에서 
+
+    temp = pathlib.PosixPath 
+    pathlib.PosixPath = pathlib.WindowsPath 
+    
+를 제거합니다.
 
 6. 
