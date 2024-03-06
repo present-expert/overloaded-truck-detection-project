@@ -46,11 +46,11 @@
     <img src="https://img.shields.io/badge/github-181717?style=flat&logo=github&logoColor=white" /> &nbsp&nbsp
     <img src="https://img.shields.io/badge/slack-4A154B?style=flat&logo=slack&logoColor=white" /> &nbsp&nbsp
     <img src="https://img.shields.io/badge/discord-5865F2?style=flat&logo=discord&logoColor=white" /> &nbsp&nbsp
+    <img src="https://img.shields.io/badge/canva-00C4CC?style=flat&logo=canva&logoColor=white" /> <br/>
     <img src="https://img.shields.io/badge/pycharm-000000?style=flat&logo=pycharm&logoColor=white" /> &nbsp&nbsp
     <img src="https://img.shields.io/badge/jupyter-F37626?style=flat&logo=jupyter&logoColor=white" /> &nbsp&nbsp
     <img src="https://img.shields.io/badge/googlecolab-F9AB00?style=flat&logo=googlecolab&logoColor=white" /> &nbsp&nbsp
     <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=flat&logo=visualstudiocode&logoColor=white" /> &nbsp&nbsp
-    <img src="https://img.shields.io/badge/canva-00C4CC?style=flat&logo=canva&logoColor=white" />
 </div>
 
 ## 필요한 모듈 설치
