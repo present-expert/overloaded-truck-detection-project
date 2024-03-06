@@ -78,9 +78,8 @@
 * 주의사항 : 맥 관련하여 서버 실행중 <br/>
 "NotImplementedError: cannot instantiate 'WindowsPath' on your system"에러 발생시 <br/>
 
-```
 /server/model.py에서 
-
+```
 temp = pathlib.PosixPath
 pathlib.PosixPath = pathlib.WindowsPath 
 ``` 
